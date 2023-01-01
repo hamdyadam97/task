@@ -1,0 +1,182 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #70707030;;
+    background-repeat: no-repeat;
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 20px;
+    height: 50%;
+  
+}
+
+.card2 {
+    margin: 0px 40px;
+}
+
+
+
+.image {
+    display: block;
+    margin-top: 100px;
+     position:relative;
+   width: 500px;
+    height:  379px;
+    animation: MoveUpDown 3s linear infinite;
+}
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 20px;
+    }
+  }
+
+.border-line {
+    border-right: 1px solid #EEEEEE;
+}
+
+.card2 input[type="text"],
+.card2 input[type="password"] {
+    display: inline;
+    border: 0;
+    background: none;
+    margin: 10px ;
+    text-align: center;
+    border: 2px solid #ab0202;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s
+}
+.card2 input[type="date"]{
+    display: inline;
+    border: 0;
+    background: none;
+    margin: 10px ;
+    text-align: center;
+    border: 2px solid #ab0202;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #ab0202;
+    width: 150px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.btn-blue:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #ab0202;
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px;
+    }
+
+    .image {
+        width: 300px;
+        height: 220px;
+    }
+
+    .border-line {
+        border-right: none;
+    }
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px;
+    }
+}
+
+
+
+
+.card2 input[type="text"]:focus,
+.card2 input[type="password"]:focus {
+    width: 300px;
+    border-color: #ab0202
+}
+
+.card2 button[type="submit"] {
+    border: 0;
+    background: none;
+    margin: 20px auto ;
+    text-align: center;
+    margin-left: 32%;
+    border: 2px solid #ab0202;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    display: block;
+}
+
+.card2 button[type="submit"]:hover {
+    background: #ab0202;
+    color: white;
+    
+}
+
+.forgot {
+    text-decoration: underline
+}
+.card2 {
+    border-top: 1px solid #EEEEEE !important;
+    margin: 0px 15px;
+}
+.custom-file-button input[type="file"] {
+    margin-left: 20px ;
+    
+}
+.custom-file-button input[type="file"]::-webkit-file-upload-button {
+    display: none;
+}
+.custom-file-button input[type="file"]::file-selector-button {
+    display: none;
+    
+}
+.custom-file-button:hover label {
+    background-color: #ab0202;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #ab0202;
+    color: white;
+
+}
+
+
+
